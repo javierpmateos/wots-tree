@@ -1,0 +1,241 @@
+% ============================================================
+% Core WOTS+ / XMSS / Merkle
+% ============================================================
+
+@inproceedings{hulsing2013wots,
+  author    = {Andreas H{\"u}lsing},
+  title     = {{W-OTS+} -- Shorter Signatures for Hash-Based Signature Schemes},
+  booktitle = {Progress in Cryptology -- {AFRICACRYPT} 2013},
+  series    = {LNCS},
+  volume    = {7918},
+  pages     = {173--191},
+  publisher = {Springer},
+  year      = {2013},
+  doi       = {10.1007/978-3-642-38553-7_10}
+}
+
+@inproceedings{buchmann2011xmss,
+  author    = {Johannes Buchmann and Erik Dahmen and Andreas H{\"u}lsing},
+  title     = {{XMSS} -- A Practical Forward Secure Signature Scheme Based on Minimal Security Assumptions},
+  booktitle = {Post-Quantum Cryptography -- {PQCrypto} 2011},
+  series    = {LNCS},
+  volume    = {7071},
+  pages     = {117--129},
+  publisher = {Springer},
+  year      = {2011},
+  doi       = {10.1007/978-3-642-25405-5_8}
+}
+
+@misc{huelsing2018xmss,
+  author    = {Andreas H{\"u}lsing and Denis Butin and Stefan-Lukas Gazdag and Joost Rijneveld and Aziz Mohaisen},
+  title     = {{XMSS}: e{X}tended {M}erkle Signature Scheme},
+  howpublished = {RFC 8391},
+  year      = {2018},
+  url       = {https://www.rfc-editor.org/rfc/rfc8391}
+}
+
+
+
+@misc{rfc8391,
+  author    = {Andreas H{\"u}lsing and Denis Butin and Stefan-Lukas Gazdag and Joost Rijneveld and Aziz Mohaisen},
+  title     = {{XMSS}: e{X}tended {M}erkle Signature Scheme},
+  howpublished = {{RFC} 8391},
+  year      = {2018},
+  url       = {https://www.rfc-editor.org/rfc/rfc8391}
+}
+
+@misc{rfc8554,
+  author    = {David McGrew and Michael Curcio and Scott Fluhrer},
+  title     = {{L}eighton-{M}icali Hash-Based Signatures},
+  howpublished = {{RFC} 8554},
+  year      = {2019},
+  month     = apr,
+  url       = {https://www.rfc-editor.org/rfc/rfc8554}
+}
+
+@inproceedings{merkle1989certified,
+  author    = {Ralph C. Merkle},
+  title     = {A Certified Digital Signature},
+  booktitle = {Advances in Cryptology -- {CRYPTO} '89},
+  series    = {LNCS},
+  volume    = {435},
+  pages     = {218--238},
+  publisher = {Springer},
+  year      = {1990},
+  doi       = {10.1007/0-387-34805-0_21}
+}
+
+@techreport{lamport1979constructing,
+  author      = {Leslie Lamport},
+  title       = {Constructing Digital Signatures from a One Way Function},
+  institution = {SRI International},
+  number      = {CSL-98},
+  year        = {1979},
+  month       = oct
+}
+
+% ============================================================
+% SPHINCS / SLH-DSA / Stateless schemes
+% ============================================================
+
+@inproceedings{bernstein2015sphincs,
+  author    = {Daniel J. Bernstein and Daira Hopwood and Andreas H{\"u}lsing and Tanja Lange and Ruben Niederhagen and Louiza Papachristodoulou and Michael Schneider and Peter Schwabe and Zooko Wilcox-O'Hearn},
+  title     = {{SPHINCS}: Practical Stateless Hash-Based Signatures},
+  booktitle = {Advances in Cryptology -- {EUROCRYPT} 2015},
+  series    = {LNCS},
+  volume    = {9056},
+  pages     = {368--397},
+  publisher = {Springer},
+  year      = {2015},
+  doi       = {10.1007/978-3-662-46800-5_15}
+}
+
+@inproceedings{bernstein2019sphincs,
+  author    = {Daniel J. Bernstein and Andreas H{\"u}lsing and Stefan K{\"o}lbl and Ruben Niederhagen and Joost Rijneveld and Peter Schwabe},
+  title     = {The {SPHINCS+} Signature Framework},
+  booktitle = {{ACM} Conference on Computer and Communications Security ({CCS}) 2019},
+  pages     = {2129--2146},
+  publisher = {ACM},
+  year      = {2019},
+  doi       = {10.1145/3319535.3363229}
+}
+
+@techreport{nist2024slhdsa,
+  author      = {{National Institute of Standards and Technology}},
+  title       = {Stateless Hash-Based Digital Signature Standard ({SLH-DSA})},
+  number      = {FIPS 205},
+  institution = {NIST},
+  year        = {2024},
+  month       = aug,
+  url         = {https://csrc.nist.gov/pubs/fips/205/final}
+}
+
+@techreport{nist2024mldsa,
+  author      = {{National Institute of Standards and Technology}},
+  title       = {Module-Lattice-Based Digital Signature Standard ({ML-DSA})},
+  number      = {FIPS 204},
+  institution = {NIST},
+  year        = {2024},
+  month       = aug,
+  url         = {https://csrc.nist.gov/pubs/fips/204/final}
+}
+
+@techreport{nist2020sp800208,
+  author      = {David Cooper and Daniel Apon and Quynh Dang and Michael Davidson and Morris Dworkin and Carl Miller},
+  title       = {Recommendation for Stateful Hash-Based Signature Schemes},
+  number      = {SP 800-208},
+  institution = {NIST},
+  year        = {2020},
+  month       = oct,
+  url         = {https://csrc.nist.gov/pubs/sp/800/208/final}
+}
+
+% ============================================================
+% Bitcoin-specific PQ work
+% ============================================================
+
+@misc{kudinov2025,
+  author       = {Mikhail Kudinov and Jonas Nick},
+  title        = {Hash-based Signature Schemes for Bitcoin},
+  howpublished = {Cryptology ePrint Archive, Report 2025/2203},
+  year         = {2025},
+  url          = {https://eprint.iacr.org/2025/2203}
+}
+
+@misc{nick2025shrincs,
+  author       = {Jonas Nick and others},
+  title        = {{SHRINCS}: Post-Quantum Signatures for Bitcoin},
+  howpublished = {Delving Bitcoin Forum},
+  year         = {2025},
+  url          = {https://delvingbitcoin.org/t/shrincs-post-quantum-signatures-for-bitcoin/}
+}
+
+@misc{khovratovich2024sphincsc,
+  author       = {Dmitry Khovratovich and Mikhail Kudinov and Bart Preneel},
+  title        = {{SPHINCS+C}: Compressing {SPHINCS+} with (Almost) No Cost},
+  howpublished = {Cryptology ePrint Archive, Report 2024/270},
+  year         = {2024},
+  url          = {https://eprint.iacr.org/2024/270}
+}
+
+% ============================================================
+% Bitcoin BIPs
+% ============================================================
+
+@misc{bip340,
+  author       = {Pieter Wuille and Jonas Nick and Tim Ruffing},
+  title        = {{BIP} 340: Schnorr Signatures for secp256k1},
+  howpublished = {Bitcoin Improvement Proposal},
+  year         = {2020},
+  url          = {https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki}
+}
+
+@misc{bip341,
+  author       = {Pieter Wuille and Jonas Nick and Anthony Towns},
+  title        = {{BIP} 341: Taproot: {SegWit} version 1 spending rules},
+  howpublished = {Bitcoin Improvement Proposal},
+  year         = {2020},
+  url          = {https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki}
+}
+
+@misc{bip32,
+  author       = {Pieter Wuille},
+  title        = {{BIP} 32: Hierarchical Deterministic Wallets},
+  howpublished = {Bitcoin Improvement Proposal},
+  year         = {2012},
+  url          = {https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki}
+}
+
+@misc{bip360,
+  author       = {Hunter Beast and Ethan Heilman and Isabel Foxen Duke},
+  title        = {{BIP} 360: Pay-to-{M}erkle-{R}oot ({P2MR})},
+  howpublished = {Bitcoin Improvement Proposal (Draft)},
+  year         = {2024},
+  note         = {Originally proposed as P2QRH (2024), renamed P2TSH (2025), then P2MR (2026)},
+  url          = {https://bip360.org/bip360.html}
+}
+
+% ============================================================
+% Quantum algorithms
+% ============================================================
+
+@inproceedings{shor1994algorithms,
+  author    = {Peter W. Shor},
+  title     = {Algorithms for Quantum Computation: Discrete Logarithms and Factoring},
+  booktitle = {Proceedings 35th Annual Symposium on Foundations of Computer Science ({FOCS})},
+  pages     = {124--134},
+  publisher = {IEEE},
+  year      = {1994},
+  doi       = {10.1109/SFCS.1994.365700}
+}
+
+@inproceedings{grover1996fast,
+  author    = {Lov K. Grover},
+  title     = {A Fast Quantum Mechanical Algorithm for Database Search},
+  booktitle = {Proceedings of the 28th Annual {ACM} Symposium on Theory of Computing ({STOC})},
+  pages     = {212--219},
+  publisher = {ACM},
+  year      = {1996},
+  doi       = {10.1145/237814.237866}
+}
+
+% ============================================================
+% HMAC / Hash function standards
+% ============================================================
+
+@misc{rfc2104,
+  author       = {Hugo Krawczyk and Mihir Bellare and Ran Canetti},
+  title        = {{HMAC}: Keyed-Hashing for Message Authentication},
+  howpublished = {{RFC} 2104},
+  year         = {1997},
+  month        = feb,
+  url          = {https://www.rfc-editor.org/rfc/rfc2104}
+}
+
+@misc{nakamoto2008bitcoin,
+  author       = {Satoshi Nakamoto},
+  title        = {Bitcoin: A Peer-to-Peer Electronic Cash System},
+  year         = {2008},
+  url          = {https://bitcoin.org/bitcoin.pdf},
+  note         = {White paper}
+}
