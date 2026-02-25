@@ -113,7 +113,7 @@ See the paper (Section 5) for formal reductions and concrete bounds.
 
 ## Paper
 
-The full technical paper is available in `paper/` and on [IACR ePrint](https://eprint.iacr.org/) (forthcoming).
+The full technical paper is available in `paper/` and on [IACR ePrint](https://eprint.iacr.org/2026/374).
 
 **Citation:**
 ```bibtex
